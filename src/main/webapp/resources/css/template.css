@@ -1,0 +1,79 @@
+body {
+	margin: 0px;
+	overflow: auto;
+	background-image: url("../resources/images/cinema.jpg");
+}
+
+.page {
+	min-height: 100%;
+	position: relative;
+	width: 1000px;
+	margin: auto;
+}
+
+.header {
+	width: 100%;
+	height:100px;
+	text-align: center;
+}
+
+.content {
+	background: none repeat scroll 0 0 rgba(200, 150, 100, 0.5);
+    border-radius: 0 0 100px 100px;
+    min-height: 270px;
+    padding: 20px 200px;
+}
+
+.menu {
+	padding: 50px 10px 0px 10px;
+	width: 200px;
+	float: left;
+}
+
+.body {
+	margin: 50px 10px 0px 250px;
+}
+
+.footer {
+	clear: both;
+	bottom: 0;
+	left: 0;
+	text-align: center;
+	width: 100%;
+	height: 20px;
+}
+
+#cssmenu ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  width: auto;
+  position: relative;
+  display: block;
+  height: 30px;
+  font-size: 12px;
+  font-weight: bold;
+  background: transparent url(../resources/images/nav_bg.png) repeat-x top left;
+  font-family: Arial, Helvetica, sans-serif;
+  border-bottom: 1px solid #000000;
+  border-top: 1px solid #000000;
+}
+#cssmenu li {
+  display: block;
+  float: left;
+  margin: 0;
+  padding: 0;
+}
+#cssmenu li a {
+  display: block;
+  float: left;
+  color: #999999;
+  text-decoration: none;
+  font-weight: bold;
+  padding: 8px 20px 0 20px;
+}
+#cssmenu li a:hover {
+  color: #FFFFFF;
+  height: 22px;
+  background: transparent url../resources/images/(nav_bg.png) 0px -30px no-repeat;
+}

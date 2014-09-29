@@ -25,7 +25,7 @@ public class HomeController {
 	/**
 	 * Simply selects the home view to render by returning its name.
 	 */
-	@RequestMapping(value = "/home", method = RequestMethod.GET)
+	@RequestMapping(value = {"/home", "/"}, method = RequestMethod.GET)
 	public String home(Locale locale, Model model) {
 		logger.info("Welcome home! The client locale is {}.", locale);
 		
@@ -38,12 +38,5 @@ public class HomeController {
 		
 		return "home";
 	}
-	
-	 @RequestMapping("/page.htm")    
-     public String page(@RequestParam(value="pageNo") String pageNo,HttpServletRequest request) {  
-      System.out.println("PageNo: " + pageNo);  
-      request.setAttribute("pageNo", pageNo);  
-          return "page";    
-     }    
 	
 }

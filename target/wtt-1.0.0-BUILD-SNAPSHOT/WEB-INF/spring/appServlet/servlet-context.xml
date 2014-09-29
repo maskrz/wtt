@@ -9,9 +9,6 @@
  
     <mvc:annotation-driven />
     <context:component-scan base-package="com.herokuapp.wtt" />
-     
-    <!-- Used to serve static resources like css, images and javascript files-->
-    <mvc:resources mapping="/resources/**" location="/resources/" />
  
     <!-- Resolves views selected for rendering by @Controllers to .jsp resources
         in the /WEB-INF/views directory -->
@@ -20,6 +17,11 @@
         <property name="prefix" value="/WEB-INF/views/" />
         <property name="suffix" value=".jsp" />
     </bean>
+     
+    <!-- Used to serve static resources like css, images and javascript files-->
+<!--     <mvc:resources mapping="/resources/**" location="/resources/" /> -->
+    <mvc:resources mapping="/img/*" location="/resources/resources/images/" />
+    <mvc:resources mapping="/css/*" location="/resources/resources/css/" />
  
     <!-- Tiles configuration -->
  
@@ -27,7 +29,7 @@
         class="org.springframework.web.servlet.view.tiles3.TilesConfigurer">
         <property name="definitions">
             <list>
-                <value>/WEB-INF/tiles/tiles-definitions.xml</value>
+                <value>/WEB-INF/tiles-definitions.xml</value>
             </list>
         </property>
     </bean>

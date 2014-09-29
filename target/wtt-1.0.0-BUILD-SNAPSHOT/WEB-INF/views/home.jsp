@@ -10,7 +10,7 @@
 
 			<P>Coming soon</P>
 
-			<img alt="const2" src="resources/images/construction.gif">
+			<img alt="const2" src="/img/construction.gif">
 		</div>
 
 
