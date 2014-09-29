@@ -12,7 +12,6 @@
 			<P>Coming soon</P>
 
 			<img src="<c:url value='/img/construction.gif'/>">
-			<img src="<c:url value='/img/construction.gif'/>">
 		</div>
 
 
