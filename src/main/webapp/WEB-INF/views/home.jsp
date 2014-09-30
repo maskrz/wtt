@@ -8,6 +8,8 @@
 
 		<div>
 			<h1>Praca magisterska - Maciej Skrzypinski</h1>
+			
+			<h1>Promotor - Dr inz. Maciej Zieba</h1>
 
 			<P>Coming soon</P>
 

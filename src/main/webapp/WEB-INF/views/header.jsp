@@ -10,9 +10,9 @@
 		<div id='cssmenu'>
 			<ul>
 				<li class='active'><spring:url value="/home" var="homeUrl" htmlEscape="true" />
-				<a href='${homeUrl}'><span>Home</span></a></li>
+				<span><a href='${homeUrl}'>Home</a></span></li>
 				<li><spring:url value="/about" var="aboutUrl" htmlEscape="true" />
-				<span><a href="${aboutUrl}">About</a></span></a></li>
+				<span><a href="${aboutUrl}">About</a></span></li>
 			</ul>
 		</div>
 	</div>

@@ -82,3 +82,73 @@ body {
 	max-width: 150px;
 	max-height: 150px;
 }
+
+#imgTiles {
+	position:absolute;
+	margin-left:12%;
+	margin-top:50px;
+}
+
+#imgTomcat {
+	position:absolute;
+	margin-left:38%;
+	margin-top:25px;
+}
+
+#imgSpring {
+	position:absolute;
+	margin-left:5%;
+	margin-top:10px;
+}
+
+#imgHeroku {
+	position:absolute;
+	margin-left:45%;
+	margin-top:50px;
+}
+
+#imgJava {
+	position:absolute;
+	margin-left:25%;
+	margin-top:40px;
+}
+
+#imgPostgresql {
+	position:absolute;
+	margin-left:45%;
+	margin-top:120px;
+}
+
+#imgHibernate {
+	position:absolute;
+	margin-left:4%;
+	margin-top:150px;
+}
+
+#imgJsp {
+	position:absolute;
+	margin-left:12%;
+	margin-top:200px;
+}
+
+#imgMaven {
+	position:absolute;
+	margin-left:32%;
+	margin-top:250px;
+}
+
+.animation {	
+	-webkit-transition: all 1s ease-in-out; 
+	-moz-transition: all 1s ease-in-out; 
+	-o-transition: all 1s ease-in-out; 
+	-ms-transition: all 1s ease-in-out; 
+	transition: all 1s ease-in-out; 
+}
+
+.animation:hover { 
+	-webkit-transform: rotate(360deg); 
+	-moz-transform: rotate(360deg); 
+	-o-transform: rotate(360deg); 
+	-ms-transform: rotate(360deg); 
+	transform: rotate(360deg); 
+}
